@@ -1,0 +1,248 @@
+"""
+These are the requirements written in a human readable format. 
+The order of the requirements below is the same as the order of the requirements in the file requirements_dimacs.txt
+"""
+
+Ped not PushObj 
+PushObj not Ped MovAway MovTow Mov Stop TurLft TurRht Wait2X XingFmLft XingFmRht Xing 
+Ped not Xing Car Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Ped not XingFmRht Car Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Ped not XingFmLft Car Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Ped not Wait2X Cyc 
+Ped not Stop Car Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Ped not Mov Car Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Ped not MovTow Car Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Ped not MovAway Car Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Ovtak not EmVeh MovAway MovTow Mov Brake Stop IncatLeft IncatRht HazLit TurLft TurRht XingFmRht XingFmLft Xing 
+EmVeh not HazLit Car MedVeh LarVeh Bus Mobike 
+Ovtak not Bus MovAway MovTow Mov Brake Stop IncatLeft IncatRht HazLit TurLft TurRht XingFmRht XingFmLft Xing 
+Ovtak not LarVeh MovAway MovTow Mov Brake Stop IncatLeft IncatRht HazLit TurLft TurRht XingFmRht XingFmLft Xing 
+OthTL not Green TL 
+OthTL not Amber TL 
+OthTL not Red TL 
+Ovtak not Mobike MovAway MovTow Mov Brake Stop IncatLeft IncatRht HazLit TurLft TurRht XingFmRht XingFmLft Xing 
+Xing not Cyc MovAway MovTow Mov Brake Stop IncatLeft IncatRht TurLft TurRht Ovtak Wait2X XingFmLft XingFmRht 
+Cyc not Ovtak MedVeh LarVeh Bus Mobike EmVeh Car 
+Cyc not IncatRht MedVeh LarVeh Bus Mobike EmVeh Car 
+Cyc not IncatLeft MedVeh LarVeh Bus Mobike EmVeh Car 
+Cyc not Brake MedVeh LarVeh Bus Mobike EmVeh Car 
+Ovtak not Car MovAway MovTow Mov Brake Stop IncatLeft IncatRht HazLit TurLft TurRht XingFmRht XingFmLft Xing 
+Car not TurRht Cyc Mobike MedVeh LarVeh Bus EmVeh 
+Car not TurLft Cyc Mobike MedVeh LarVeh Bus EmVeh 
+not Car not Cyc 
+not Car not Mobike 
+not Car not MedVeh 
+not Car not LarVeh 
+not Car not Bus 
+not Cyc not Mobike 
+not Car not EmVeh 
+not Car not TL 
+not Cyc not MedVeh 
+not Car not OthTL 
+not Car not Red 
+not Cyc not LarVeh 
+not Car not Amber 
+not Car not Green 
+not Cyc not Bus 
+not Mobike not MedVeh 
+not Cyc not EmVeh 
+not Mobike not LarVeh 
+not Cyc not TL 
+not Cyc not OthTL 
+not Mobike not Bus 
+not Cyc not Red 
+not MedVeh not LarVeh 
+not Mobike not EmVeh 
+not Cyc not Amber 
+not Car not Wait2X 
+not Cyc not Green 
+not Mobike not TL 
+not MedVeh not Bus 
+not Car not Xing 
+not Mobike not OthTL 
+not Car not PushObj 
+not MedVeh not EmVeh 
+not Mobike not Red 
+not LarVeh not Bus 
+not Brake not Cyc 
+not MedVeh not TL 
+not Mobike not Amber 
+not LarVeh not EmVeh 
+not Mobike not Green 
+not MedVeh not OthTL 
+not HazLit not Cyc 
+not MedVeh not Red 
+not LarVeh not TL 
+not Car not Ped 
+Ped Car Cyc Mobike MedVeh LarVeh Bus EmVeh TL OthTL 
+not Bus not EmVeh 
+not MedVeh not Amber 
+not LarVeh not OthTL 
+not MedVeh not Green 
+not Bus not TL 
+not LarVeh not Red 
+not Bus not OthTL 
+not LarVeh not Amber 
+not Cyc not PushObj 
+not EmVeh not TL 
+not LarVeh not Green 
+not Bus not Red 
+not EmVeh not OthTL 
+not Bus not Amber 
+not EmVeh not Red 
+not Mobike not Wait2X 
+not Bus not Green 
+not TL not OthTL 
+not EmVeh not Amber 
+not Mobike not Xing 
+not Cyc not Ped 
+Ped Cyc not Xing 
+not Mobike not PushObj 
+not EmVeh not Green 
+not MedVeh not Wait2X 
+not TL not MovAway 
+not MedVeh not Xing 
+not Red not Amber 
+not MedVeh not PushObj 
+not MovTow not TL 
+not OthTL not MovAway 
+not LarVeh not Wait2X 
+not TL not Mov 
+not Red not Green 
+not Mobike not Ped 
+not MovTow not OthTL 
+not TL not Brake 
+not Red not MovAway 
+not Amber not Green 
+not LarVeh not Xing 
+not OthTL not Mov 
+not Stop not TL 
+not LarVeh not PushObj 
+not Red not MovTow 
+not Amber not MovAway 
+not Bus not Wait2X 
+not TL not IncatLeft 
+not OthTL not Brake 
+not Red not Mov 
+not TL not IncatRht 
+not Stop not OthTL 
+not Amber not MovTow 
+not Green not MovAway 
+not TL not HazLit 
+not Red not Brake 
+not Bus not Xing 
+not OthTL not IncatLeft 
+not MedVeh not Ped 
+not Amber not Mov 
+not Bus not PushObj 
+not EmVeh not Wait2X 
+not TL not TurLft 
+not Green not MovTow 
+not Red not Stop 
+not OthTL not IncatRht 
+not TurRht not TL 
+not Amber not Brake 
+not OthTL not HazLit 
+not Red not IncatLeft 
+not Green not Mov 
+not TL not Ovtak 
+not Amber not Stop 
+not EmVeh not Xing 
+not OthTL not TurLft 
+not Red not IncatRht 
+not TL not Wait2X 
+not Green not Brake 
+not MovAway not Mov 
+not EmVeh not PushObj 
+not TurRht not OthTL 
+not Amber not IncatLeft 
+not TL not XingFmLft 
+not Red not HazLit 
+not Green not Stop 
+not LarVeh not Ped 
+not OthTL not Ovtak 
+not TL not XingFmRht 
+not Amber not IncatRht 
+not Red not TurLft 
+not MovTow not Mov 
+not TL not Xing 
+not OthTL not Wait2X 
+not Green not IncatLeft 
+not Red not TurRht 
+not Amber not HazLit 
+not TL not PushObj 
+not OthTL not XingFmLft 
+not Green not IncatRht 
+not Red not Ovtak 
+not Amber not TurLft 
+not OthTL not XingFmRht 
+not Red not Wait2X 
+not Green not HazLit 
+not Amber not TurRht 
+not OthTL not Xing 
+not Bus not Ped 
+not Red not XingFmLft 
+not OthTL not PushObj 
+not Green not TurLft 
+not Amber not Ovtak 
+not Mov not Stop 
+not Red not XingFmRht 
+not Amber not Wait2X 
+not Green not TurRht 
+not Red not Xing 
+not Amber not XingFmLft 
+not Green not Ovtak 
+not Amber not XingFmRht 
+not EmVeh not Ped 
+not Green not Wait2X 
+not Amber not Xing 
+not Green not XingFmLft 
+not Green not XingFmRht 
+not Green not Xing 
+not TL not Ped 
+not IncatLeft not IncatRht 
+not OthTL not Ped 
+not Brake not Wait2X 
+not Red not Ped 
+not Xing not Brake 
+not Wait2X not IncatLeft 
+not Brake not PushObj 
+not Amber not Ped 
+not Wait2X not IncatRht 
+not Green not Ped 
+not Wait2X not Ovtak 
+not Wait2X not XingFmLft 
+not Wait2X not XingFmRht 
+not Wait2X not Xing 
+not Brake not Ped 
+not Ped not IncatLeft 
+not Ped not IncatRht 
+not HazLit not Ped 
+VehLane OutgoLane OutgoCycLane IncomLane IncomCycLane Pav LftPav RhtPav Jun XingLoc BusStop Parking TL OthTL 
+not OutgoLane not OutgoCycLane 
+not Ped not Ovtak 
+not VehLane not IncomCycLane 
+not OutgoLane not IncomCycLane 
+not IncomLane not OutgoCycLane 
+not OutgoLane not Pav 
+not IncomCycLane not OutgoCycLane 
+not OutgoLane not RhtPav 
+not IncomCycLane not Pav 
+not XingLoc not OutgoLane 
+not VehLane not Parking 
+not BusStop not OutgoLane 
+not OutgoLane not Parking 
+not BusStop not OutgoCycLane 
+not Parking not OutgoCycLane 
+not XingLoc not IncomCycLane 
+not LftPav not RhtPav 
+not IncomLane not Parking 
+not IncomCycLane not BusStop 
+not IncomCycLane not Parking 
+not Pav not Parking 
+not LftPav not Parking 
+not RhtPav not Parking 
+not Jun not Parking 
+not XingLoc not BusStop 
+not XingLoc not Parking 
+not BusStop not Parking 
