@@ -9,7 +9,7 @@ The annotated requirements can be found in the [requirements folder](requirement
 
 1. [requirements_dimacs.txt](requirements/requirements_dimacs.txt) contains the requirements written in dimacs format. Here, each label is represented as a number.
 
-2. [requirements_readable.txt](requirements/requirements_readable.txt) contains the reqiurements written in a human understable format. 
+2. [requirements_readable.txt](requirements/requirements_readable.txt) contains the requirements written in a human understable format. 
 
 The natural language explanation of each requirement can be found in the appendix of the paper.
 
