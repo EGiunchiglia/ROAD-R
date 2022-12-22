@@ -39,7 +39,7 @@ def get_sparse_representation(req_matrix):
     req_matrix = req_matrix.to_sparse()
     return req_matrix.indices(), req_matrix.values()
 
-
+# Mihaela Stoian
 def godel_disjunctions_sparse(sH, Cplus, Cminus, weighted_literals=False):
     constr_values = torch.zeros(sH.shape[0], NUM_REQ).to(sH.device)
 
@@ -73,7 +73,7 @@ def godel_disjunctions_sparse(sH, Cplus, Cminus, weighted_literals=False):
     # and hence we want to minimize the 1-p
     return 1 - req_loss
 
-
+# Mihaela Stoian
 def lukasiewicz_disjunctions_sparse(sH, Cplus, Cminus, weighted_literals=False):
     constr_values_unbounded = torch.zeros(sH.shape[0], NUM_REQ).to(sH.device)
 
@@ -109,7 +109,7 @@ def lukasiewicz_disjunctions_sparse(sH, Cplus, Cminus, weighted_literals=False):
     # We need to do 1-req_loss because we want to maximise the probability p of satisfying our requirements, and hence we want to minimize the 1-p
     return 1 - req_loss
 
-
+# Mihaela Stoian
 def product_disjunctions_sparse(sH, Cplus, Cminus, weighted_literals=False):
     # The disjunction is more complex to implement thant the conjunction
     # e.g., A and B --> A*B while A or B --> A + B - A*B
