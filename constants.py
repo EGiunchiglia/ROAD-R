@@ -1,0 +1,5 @@
+# CONSTANTS
+CONSTRAINTS_PATH = "constraints/constraints.txt"
+NUM_LABELS = 41 #149
+NUM_REQ = 243 #246
+BETA = 0.1
