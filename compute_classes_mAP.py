@@ -5,7 +5,7 @@ import time
 import argparse
 import os
 
-from data import VideoDataset
+from data.datasets_post import VideoDataset
 from torchvision import transforms
 import data.transforms as vtf
 from modules import utils
@@ -38,20 +38,24 @@ def main():
     parser = argparse.ArgumentParser(description='Post-processing output')
     parser.add_argument('--model', type=str, help='model type')
     parser.add_argument('--data_split', default='test', type=str, help='data split.')
-    parser.add_argument('--th', type=float, help='threshold at which the model is evaluated- If out >= th then label = 1, otherwise = 0')
     parser.add_argument('--iou_th', type=float, default=0.5, help="IOU threshold")
     parser.add_argument('--file_path', type=str, help="Output file on which to compute the mAP")
-    parser.add_argument('--test_json_path', type=str, default="/home/user/road/road_test_v1.0.json", help="Path to the json file for the test split")
+    parser.add_argument('--data_root', type=str, default="/home/user/", help="Path to the folder containing the dataset folder")
 
     args = parser.parse_args()
 
-    map_dataset_path = args.file_path.split('/')[0]+"/"+args.file_path.split('/')[1]
-    os.makedirs(f"classes_mAP@{args.iou_th:.1f}/{map_dataset_path}")
+    if "corrected" in args.file_path:
+        map_dataset_path = f"{args.file_path.split('/')[0]}/{args.file_path.split('/')[1]}"
+    else:
+        map_dataset_path = args.file_path.split('/')[0]
+    if not os.path.exists(f"classes_mAP@{args.iou_th:.1f}/{map_dataset_path}"):
+        os.makedirs(f"classes_mAP@{args.iou_th:.1f}/{map_dataset_path}")
     print(map_dataset_path)
 
 
     args.DATASET = 'road'
     args.SUBSETS = ['test']
+    args.DATA_ROOT = args.data_root
     args.MODE = 'test'
     args.BATCH_SIZE = 4
     args.MIN_SEQ_STEP, args.MAX_SEQ_STEP = 1, 1
@@ -136,7 +140,7 @@ def main():
                 break
 
 
-    anno_file = args.test_json_path #'/users-2/eleonora/3D-RetinaNet/road_test_v1.0.json'
+    anno_file = f"{args.data_root}/road_test_v1.0.json" #'/users-2/eleonora/3D-RetinaNet/road_test_v1.0.json'
     with open(anno_file, 'r') as fff:
             final_annots = json.load(fff)
 
