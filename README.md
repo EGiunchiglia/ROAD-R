@@ -68,9 +68,9 @@ This command will generate a file containing the detected boxes at the following
 ## Post-processing
 Assume we have the file containing detected boxes (from the previous step) copied into the `postprocessing/outputs` directory.
 We `cd` into the `postprocessing` directory in this repository. 
-First, we compute the mAP over each of the 3 classes (agent, action, location), specifying an IOU value:
+First, we compute the mAP over each of the 3 classes (agent, action, location), specifying an IOU value and the folder where the dataset folder is stored (the deafult value for this parameter is `/home/user/`:
 ```
-python compute_classes_mAP.py --model I3D --data_split test --file_path outputs/log-lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt --iou_th 0.5
+python compute_classes_mAP.py --model I3D --data_split test --file_path outputs/log-lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt --iou_th 0.5 --data_root /home/user/ 
 ```
 The output will be saved in `classes_mAP/outputs/lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt`.
 
@@ -92,7 +92,10 @@ will produce an output file stored at `outputs_corrected_acc_times_p_all_th/I3D_
 An example of how to run this script with all thresholds between 0.1 and 0.9 (with step 0.1) is provided in 
 `general_postprocessing.sh`. 
 
-Next, we compute the mAP for each of the 3 classes (agent, action, location) for each of the 9 chosen thresholds, specifying the IOU, as in `overall_precision.sh`.
+Next, we compute the mAP for each of the 3 classes (agent, action, location) for each of the 9 chosen thresholds, specifying the IOU. We will thus run, for example:
+```
+python compute_classes_mAP.py --model I3D --data_split test --file_path outputs_corrected_map_times_pred_based/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt --iou_th 0.5 --data_root /home/user/ 
+```
 Depending on the chosen IOU value, the mAP values for the example above will be stored at `classes_mAP@<IOU_value>/outputs_corrected_acc_times_p_all_th/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt`.
 
 Lastly, we compute the overall mAP (over all 41 classes) using `compute_final_map_from_txt.py`, which iterates over 
