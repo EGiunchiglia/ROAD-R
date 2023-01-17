@@ -92,7 +92,7 @@ will produce an output file stored at `outputs_corrected_acc_times_p_all_th/I3D_
 An example of how to run this script with all thresholds between 0.1 and 0.9 (with step 0.1) is provided in 
 `general_postprocessing.sh`. 
 
-Next, we compute the mAP for each of the 3 classes (agent, action, location) for each of the 9 chosen thresholds, specifying the IOU, as in `overall_precision.sh`. We will thus run, for example:
+Next, we compute the mAP for each of the 3 classes (agent, action, location) for each of the 9 chosen thresholds, specifying the IOU. We will thus run, for example:
 ```
 python compute_classes_mAP.py --model I3D --data_split test --file_path outputs_corrected_map_times_pred_based/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt --iou_th 0.5 --data_root /home/user/ 
 ```
