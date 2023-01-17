@@ -92,7 +92,7 @@ will produce an output file stored at `outputs_corrected_acc_times_p_all_th/I3D_
 
 
 An example of how to run this script with all thresholds between 0.1 and 0.9 (with step 0.1) is provided in 
-`general_postprocessing.sh`. 
+`postprocessing_script.sh`. 
 
 Next, we compute the mAP for each of the 3 classes (agent, action, location) for each of the 9 chosen thresholds, specifying the IOU. We will thus run, for example:
 ```
