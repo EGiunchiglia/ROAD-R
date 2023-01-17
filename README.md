@@ -68,9 +68,9 @@ This command will generate a file containing the detected boxes at the following
 ## Post-processing
 Assume we have the file containing detected boxes (from the previous step) copied into the `postprocessing/outputs` directory.
 We `cd` into the `postprocessing` directory in this repository. 
-First, we compute the mAP over each of the 3 classes (agent, action, location), specifying an IOU value:
+First, we compute the mAP over each of the 3 classes (agent, action, location), specifying an IOU value and the folder where the dataset folder is stored (the deafult value for this parameter is `/home/user/`:
 ```
-python compute_classes_mAP.py --model I3D --data_split test --file_path outputs/log-lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt --iou_th 0.5
+python compute_classes_mAP.py --model I3D --data_split test --file_path outputs/log-lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt --iou_th 0.5 --data_root /home/user/ 
 ```
 The output will be saved in `classes_mAP/outputs/lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt`.
 
