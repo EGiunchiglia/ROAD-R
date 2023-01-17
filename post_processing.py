@@ -15,10 +15,10 @@ HARD_VALUE = 2**(NUM_LABELS+1)
 #This function reads the mAP obtained by a model for each class 
 # <-- the mAP is then used for post-processing purposes
 #################
-def read_maps(model, logic, wgt_logic):
+def read_maps(model, logic, wgt_logic, iou):
 
     maps = []
-    with open(f"classes_mAP/outputs/log-lo_ROAD_R_predictions_{model}_logic-{logic}-{wgt_logic}.txt") as rf:
+    with open(f"classes_mAP@{iou}/outputs/log-lo_ROAD_R_predictions_{model}_logic-{logic}-{wgt_logic}.txt") as rf:
         for line in rf.readlines():
             if "ap_all" in line:
                 clean_line = line.replace('ap_all: [', '').replace(']\n', '')
@@ -185,7 +185,7 @@ def compute_corrected_output(preds, new_assgn, th, prop_negation = False):
         if (pred > th and assgn > 0) or (pred < th and assgn < 0):
             corrected_preds.append(pred)
         else:
-            new_pred = invert_pred(pred, th, prop=prop_negation)
+            new_pred = invert_pred(pred, th)
             corrected_preds.append(new_pred)
     return corrected_preds
 
@@ -197,8 +197,10 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, help='model type')
     parser.add_argument('--data_split', type=str, help='data split.')
     parser.add_argument('--th', type=float, help='threshold at which the model is evaluated- If out >= th then label = 1, otherwise = 0')
+    parser.add_argument('--post_proc', type=str, help="Post-processing to be used")
     parser.add_argument('--logic', type=str, default="None", help="Logic type in the loss used for training" )
     parser.add_argument('--wgt_log', type=float, default=0.0, help="Weight associated to the logic loss" )
+    parser.add_argument('--iou', type=float, default=0.5, help="IOU value used to calculate the mAP" )
 
 
     args = parser.parse_args()
@@ -226,8 +228,8 @@ if __name__ == "__main__":
 
             # For accuracy based post-processing
             maps=None
-            if args.post_proc == "acc_all_th" or args.post_proc =="acc_times_p_all_th" or args.post_proc == "both_acc_all_th" or args.post_proc == "both_acc_times_p_all_th" or args.post_proc == "acc_prop_negation_all_th" or args.post_proc =="acc_times_p_prop_negation_all_th" in args.post_proc:
-                maps = read_maps(args.model, args.logic, args.wgt_log)
+            if args.post_proc == "map_times_pred_based" or args.post_proc =="map_based":
+                maps = read_maps(args.model, args.logic, args.wgt_log, args.iou)
 
             for i, l in enumerate(rf.readlines()):
 
