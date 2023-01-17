@@ -1,3 +1,7 @@
 make_constraints_readable.py
 outputs/*.txt
+outputs_*/*/*.txt
 *.pyc
+*.cpython-38.pyc
+classes_mAP@0.5
+WDIMACS*
