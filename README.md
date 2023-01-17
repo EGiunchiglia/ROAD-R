@@ -67,15 +67,23 @@ CUDA_VISIBLE_DEVICES=1 python main.py /home/user/ /home/user/  /home/user/kineti
 This command will generate a file containing the detected boxes at the following location:
 `/home/user/road/road/log-lo_cache_logic_<LOGIC>_<req_loss_weight>/<experiment-name>/detections-30-08-50_test/log-lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt`.
 
-## Post-processing
-Assume we have the file containing detected boxes (from the previous step) copied into the `postprocessing/outputs` directory.
-We `cd` into the `postprocessing` directory in this repository. 
-First, we compute the mAP over each of the 3 classes (agent, action, location), specifying an IOU value and the folder where the dataset folder is stored (the deafult value for this parameter is `/home/user/`:
+Then, to get the f-mAP scores for each of the 41 labels, run:
 ```
 python compute_classes_mAP.py --model I3D --data_split test --file_path outputs/log-lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt --iou_th 0.5 --data_root /home/user/ 
 ```
 The output will be saved in `classes_mAP/outputs/lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt`.
 
+Lastly, we compute the overall f-mAP (over all 41 classes) using `compute_final_map_from_txt.py`:
+```
+python compute_final_map_from_txt.py --direct_path classes_mAP/outputs/lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt
+```
+
+
+## Post-processing
+Assume we have the file containing detected boxes (from the previous step) copied into the `postprocessing/outputs` directory.
+And assume we have the file with the f-mAP scores created earlier: `classes_mAP/outputs/lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt`.
+
+We `cd` into the `postprocessing` directory in this repository.
 Then we can run the `post_processing_general_logic.py` script by specifying:
 - the `model` type (e.g. I3D)
 - the data partition used for the evaluation `data_split` (e.g. test)
