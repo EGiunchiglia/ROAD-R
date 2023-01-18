@@ -1,7 +1,6 @@
 # ROAD-R 
 
 Dataset and code for the paper "[ROAD-R: The Autonomous Driving Dataset with Logical Requirements](https://learn-to-race.org/workshop-ai4ad-ijcai2022/assets/papers/paper_10.pdf)".
-
 ![](https://github.com/EGiunchiglia/ROAD-R/blob/main/extras/short_clip.gif)
 
 ## Table of Contents
