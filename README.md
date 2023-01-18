@@ -80,7 +80,7 @@ python compute_final_map_from_txt.py --direct_path classes_mAP/outputs/lo_ROAD_R
 
 ## Post-processing
 Assume we have the file containing detected boxes (from the previous step) copied into the `postprocessing/outputs` directory.
-And assume we have the file with the f-mAP scores created earlier: `classes_mAP/outputs/lo_ROAD_R_predictions_I3D_logic-Product-10.0.txt`.
+And assume we have the f-mAP scores (computed using steps similar to those described earlier) for the validation set.
 
 We `cd` into the `postprocessing` directory in this repository.
 Then we can run the `post_processing_general_logic.py` script by specifying:
@@ -89,13 +89,13 @@ Then we can run the `post_processing_general_logic.py` script by specifying:
 - the threshold `th` at which the model will be evaluated 
 - the `logic` type (e.g. Product)
 - the weight `wgt_log` associated with the logic-based loss (e.g. 10)
-- and finally, the post-processing method `post_proc` (e.g. `acc_times_p_all_th`)
+- and finally, the post-processing method `post_proc` (e.g. `map_times_pred_based`)
 
 For instance, running
 ```
-python post_processing_general_logic.py --logic Product --wgt_log 10.0 --post_proc "acc_times_p_all_th" --model I3D --data_split test --th 0.3
+python post_processing_general_logic.py --logic Product --wgt_log 10.0 --post_proc "map_times_pred_based" --model I3D --data_split test --th 0.3
 ```
-will produce an output file stored at `outputs_corrected_acc_times_p_all_th/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt`.
+will produce an output file stored at `outputs_corrected_map_times_pred_based/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt`.
 
 
 An example of how to run this script with all thresholds between 0.1 and 0.9 (with step 0.1) is provided in 
@@ -105,7 +105,7 @@ Next, we compute the mAP for each of the 3 classes (agent, action, location) for
 ```
 python compute_classes_mAP.py --model I3D --data_split test --file_path outputs_corrected_map_times_pred_based/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt --iou_th 0.5 --data_root /home/user/ 
 ```
-Depending on the chosen IOU value, the mAP values for the example above will be stored at `classes_mAP@<IOU_value>/outputs_corrected_acc_times_p_all_th/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt`.
+Depending on the chosen IOU value, the mAP values for the example above will be stored at `classes_mAP@<IOU_value>/outputs_corrected_map_times_pred_based/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt`.
 
 Lastly, we compute the overall mAP (over all 41 classes) using `compute_final_map_from_txt.py`, which iterates over 
 each of the 9 post-processed outputs for thresholds between 0.1 and 0.9 (inclusive).
