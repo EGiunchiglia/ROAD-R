@@ -107,8 +107,7 @@ python compute_classes_mAP.py --model I3D --data_split test --file_path outputs_
 ```
 Depending on the chosen IOU value, the mAP values for the example above will be stored at `classes_mAP@<IOU_value>/outputs_corrected_map_times_pred_based/I3D_logic_Product_w_10.0_ROAD_test/th_0.3.txt`.
 
-Lastly, we compute the overall mAP (over all 41 classes) using `compute_final_map_from_txt.py`, which iterates over 
-each of the 9 post-processed outputs for thresholds between 0.1 and 0.9 (inclusive).
+Lastly, we compute the overall mAP (over all 41 classes) using `compute_final_map_from_txt.py`, which simply computes the average f-mAP over the 41 classes.
 ```
 python compute_final_map_from_txt.py --model I3D_logic_Product_w_10.0
 ```
