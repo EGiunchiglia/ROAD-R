@@ -1,7 +1,6 @@
 """
 
-Copyright (c) 2019 Gurkirt Singh 
- All Rights Reserved.
+Author: Mihaela C Stoian
 
 """
 
