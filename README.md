@@ -130,5 +130,5 @@ python compute_final_map_from_txt.py --model I3D --th 0.3 --logic Product --wgt_
                   Fabio Cuzzolin and 
                   Thomas Lukasiewicz},
     journal = {Machine Learning},
-    year = {2022}
+    year = {2023}
 }
