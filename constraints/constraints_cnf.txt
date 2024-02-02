@@ -1,243 +1,243 @@
-y_0 OR NOT y_28
-y_28 OR NOT y_0 OR y_13 OR y_14 OR y_15 OR y_17 OR y_21 OR y_22 OR y_24 OR y_25 OR y_26 OR y_27
-y_0 OR NOT y_26 OR y_1 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-y_0 OR NOT y_25 OR y_1 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-y_0 OR NOT y_24 OR y_2
-y_0 OR NOT y_17 OR y_1 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-y_0 OR NOT y_15 OR y_1 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-y_0 OR NOT y_14 OR y_1 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-y_0 OR NOT y_13 OR y_1 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-y_23 OR NOT y_7 OR y_13 OR y_14 OR y_15 OR y_16 OR y_17 OR y_18 OR y_19 OR y_20 OR y_21 OR y_22 OR y_26 OR y_25 OR y_27
-y_7 OR NOT y_20 OR y_1 OR y_4 OR y_5 OR y_6 OR y_3
-y_23 OR NOT y_6 OR y_13 OR y_14 OR y_15 OR y_16 OR y_17 OR y_18 OR y_19 OR y_20 OR y_21 OR y_22 OR y_26 OR y_25 OR y_27
-y_23 OR NOT y_5 OR y_13 OR y_14 OR y_15 OR y_16 OR y_17 OR y_18 OR y_19 OR y_20 OR y_21 OR y_22 OR y_26 OR y_25 OR y_27
-y_9 OR NOT y_12 OR y_8
-y_9 OR NOT y_11 OR y_8
-y_9 OR NOT y_10 OR y_8
-y_23 OR NOT y_3 OR y_13 OR y_14 OR y_15 OR y_16 OR y_17 OR y_18 OR y_19 OR y_20 OR y_21 OR y_22 OR y_26 OR y_25 OR y_27
-y_27 OR NOT y_2 OR y_13 OR y_14 OR y_15 OR y_16 OR y_17 OR y_18 OR y_19 OR y_21 OR y_22 OR y_23 OR y_24 OR y_25 OR y_26
-y_2 OR NOT y_23 OR y_4 OR y_5 OR y_6 OR y_3 OR y_7 OR y_1
-y_2 OR NOT y_19 OR y_4 OR y_5 OR y_6 OR y_3 OR y_7 OR y_1
-y_2 OR NOT y_18 OR y_4 OR y_5 OR y_6 OR y_3 OR y_7 OR y_1
-y_2 OR NOT y_16 OR y_4 OR y_5 OR y_6 OR y_3 OR y_7 OR y_1
-y_23 OR NOT y_1 OR y_13 OR y_14 OR y_15 OR y_16 OR y_17 OR y_18 OR y_19 OR y_20 OR y_21 OR y_22 OR y_26 OR y_25 OR y_27
-y_1 OR NOT y_22 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-y_1 OR NOT y_21 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7
-NOT y_1 OR NOT y_2
-NOT y_1 OR NOT y_3
-NOT y_1 OR NOT y_4
-NOT y_1 OR NOT y_5
-NOT y_1 OR NOT y_6
-NOT y_2 OR NOT y_3
-NOT y_1 OR NOT y_7
-NOT y_1 OR NOT y_8
-NOT y_2 OR NOT y_4
-NOT y_1 OR NOT y_9
-NOT y_1 OR NOT y_10
-NOT y_2 OR NOT y_5
-NOT y_1 OR NOT y_11
-NOT y_1 OR NOT y_12
-NOT y_2 OR NOT y_6
-NOT y_3 OR NOT y_4
-NOT y_2 OR NOT y_7
-NOT y_3 OR NOT y_5
-NOT y_2 OR NOT y_8
-NOT y_2 OR NOT y_9
-NOT y_3 OR NOT y_6
-NOT y_2 OR NOT y_10
-NOT y_4 OR NOT y_5
-NOT y_3 OR NOT y_7
-NOT y_2 OR NOT y_11
-NOT y_1 OR NOT y_24
-NOT y_2 OR NOT y_12
-NOT y_3 OR NOT y_8
-NOT y_4 OR NOT y_6
-NOT y_1 OR NOT y_27
-NOT y_3 OR NOT y_9
-NOT y_1 OR NOT y_28
-NOT y_4 OR NOT y_7
-NOT y_3 OR NOT y_10
-NOT y_5 OR NOT y_6
-NOT y_16 OR NOT y_2
-NOT y_4 OR NOT y_8
-NOT y_3 OR NOT y_11
-NOT y_5 OR NOT y_7
-NOT y_3 OR NOT y_12
-NOT y_4 OR NOT y_9
-NOT y_20 OR NOT y_2
-NOT y_4 OR NOT y_10
-NOT y_5 OR NOT y_8
-NOT y_1 OR NOT y_0
-y_0 OR y_1 OR y_2 OR y_3 OR y_4 OR y_5 OR y_6 OR y_7 OR y_8 OR y_9
-NOT y_6 OR NOT y_7
-NOT y_4 OR NOT y_11
-NOT y_5 OR NOT y_9
-NOT y_4 OR NOT y_12
-NOT y_6 OR NOT y_8
-NOT y_5 OR NOT y_10
-NOT y_6 OR NOT y_9
-NOT y_5 OR NOT y_11
-NOT y_2 OR NOT y_28
-NOT y_7 OR NOT y_8
-NOT y_5 OR NOT y_12
-NOT y_6 OR NOT y_10
-NOT y_7 OR NOT y_9
-NOT y_6 OR NOT y_11
-NOT y_7 OR NOT y_10
-NOT y_3 OR NOT y_24
-NOT y_6 OR NOT y_12
-NOT y_8 OR NOT y_9
-NOT y_7 OR NOT y_11
-NOT y_3 OR NOT y_27
-NOT y_2 OR NOT y_0
-y_0 OR y_2 OR NOT y_27
-NOT y_3 OR NOT y_28
-NOT y_7 OR NOT y_12
-NOT y_4 OR NOT y_24
-NOT y_8 OR NOT y_13
-NOT y_4 OR NOT y_27
-NOT y_10 OR NOT y_11
-NOT y_4 OR NOT y_28
-NOT y_14 OR NOT y_8
-NOT y_9 OR NOT y_13
-NOT y_5 OR NOT y_24
-NOT y_8 OR NOT y_15
-NOT y_10 OR NOT y_12
-NOT y_3 OR NOT y_0
-NOT y_14 OR NOT y_9
-NOT y_8 OR NOT y_16
-NOT y_10 OR NOT y_13
-NOT y_11 OR NOT y_12
-NOT y_5 OR NOT y_27
-NOT y_9 OR NOT y_15
-NOT y_17 OR NOT y_8
-NOT y_5 OR NOT y_28
-NOT y_10 OR NOT y_14
-NOT y_11 OR NOT y_13
-NOT y_6 OR NOT y_24
-NOT y_8 OR NOT y_18
-NOT y_9 OR NOT y_16
-NOT y_10 OR NOT y_15
-NOT y_8 OR NOT y_19
-NOT y_17 OR NOT y_9
-NOT y_11 OR NOT y_14
-NOT y_12 OR NOT y_13
-NOT y_8 OR NOT y_20
-NOT y_10 OR NOT y_16
-NOT y_6 OR NOT y_27
-NOT y_9 OR NOT y_18
-NOT y_4 OR NOT y_0
-NOT y_11 OR NOT y_15
-NOT y_6 OR NOT y_28
-NOT y_7 OR NOT y_24
-NOT y_8 OR NOT y_21
-NOT y_12 OR NOT y_14
-NOT y_10 OR NOT y_17
-NOT y_9 OR NOT y_19
-NOT y_22 OR NOT y_8
-NOT y_11 OR NOT y_16
-NOT y_9 OR NOT y_20
-NOT y_10 OR NOT y_18
-NOT y_12 OR NOT y_15
-NOT y_8 OR NOT y_23
-NOT y_11 OR NOT y_17
-NOT y_7 OR NOT y_27
-NOT y_9 OR NOT y_21
-NOT y_10 OR NOT y_19
-NOT y_8 OR NOT y_24
-NOT y_12 OR NOT y_16
-NOT y_13 OR NOT y_15
-NOT y_7 OR NOT y_28
-NOT y_22 OR NOT y_9
-NOT y_11 OR NOT y_18
-NOT y_8 OR NOT y_25
-NOT y_10 OR NOT y_20
-NOT y_12 OR NOT y_17
-NOT y_5 OR NOT y_0
-NOT y_9 OR NOT y_23
-NOT y_8 OR NOT y_26
-NOT y_11 OR NOT y_19
-NOT y_10 OR NOT y_21
-NOT y_14 OR NOT y_15
-NOT y_8 OR NOT y_27
-NOT y_9 OR NOT y_24
-NOT y_12 OR NOT y_18
-NOT y_10 OR NOT y_22
-NOT y_11 OR NOT y_20
-NOT y_8 OR NOT y_28
-NOT y_9 OR NOT y_25
-NOT y_12 OR NOT y_19
-NOT y_10 OR NOT y_23
-NOT y_11 OR NOT y_21
-NOT y_9 OR NOT y_26
-NOT y_10 OR NOT y_24
-NOT y_12 OR NOT y_20
-NOT y_11 OR NOT y_22
-NOT y_9 OR NOT y_27
-NOT y_6 OR NOT y_0
-NOT y_10 OR NOT y_25
-NOT y_9 OR NOT y_28
-NOT y_12 OR NOT y_21
-NOT y_11 OR NOT y_23
-NOT y_15 OR NOT y_17
-NOT y_10 OR NOT y_26
-NOT y_11 OR NOT y_24
-NOT y_12 OR NOT y_22
-NOT y_10 OR NOT y_27
-NOT y_11 OR NOT y_25
-NOT y_12 OR NOT y_23
-NOT y_11 OR NOT y_26
-NOT y_7 OR NOT y_0
-NOT y_12 OR NOT y_24
-NOT y_11 OR NOT y_27
-NOT y_12 OR NOT y_25
-NOT y_12 OR NOT y_26
-NOT y_12 OR NOT y_27
-NOT y_8 OR NOT y_0
-NOT y_18 OR NOT y_19
-NOT y_9 OR NOT y_0
-NOT y_16 OR NOT y_24
-NOT y_10 OR NOT y_0
-NOT y_27 OR NOT y_16
-NOT y_24 OR NOT y_18
-NOT y_16 OR NOT y_28
-NOT y_11 OR NOT y_0
-NOT y_24 OR NOT y_19
-NOT y_12 OR NOT y_0
-NOT y_24 OR NOT y_23
-NOT y_24 OR NOT y_25
-NOT y_24 OR NOT y_26
-NOT y_24 OR NOT y_27
-NOT y_16 OR NOT y_0
-NOT y_0 OR NOT y_18
-NOT y_0 OR NOT y_19
-NOT y_20 OR NOT y_0
-y_29 OR y_30 OR y_31 OR y_32 OR y_33 OR y_34 OR y_35 OR y_36 OR y_37 OR y_38 OR y_39 OR y_40 OR y_8 OR y_9
-NOT y_30 OR NOT y_31
-NOT y_0 OR NOT y_23
-NOT y_29 OR NOT y_33
-NOT y_30 OR NOT y_33
-NOT y_32 OR NOT y_31
-NOT y_30 OR NOT y_34
-NOT y_33 OR NOT y_31
-NOT y_30 OR NOT y_36
-NOT y_33 OR NOT y_34
-NOT y_38 OR NOT y_30
-NOT y_29 OR NOT y_40
-NOT y_39 OR NOT y_30
-NOT y_30 OR NOT y_40
-NOT y_39 OR NOT y_31
-NOT y_40 OR NOT y_31
-NOT y_38 OR NOT y_33
-NOT y_35 OR NOT y_36
-NOT y_32 OR NOT y_40
-NOT y_33 OR NOT y_39
-NOT y_33 OR NOT y_40
-NOT y_34 OR NOT y_40
-NOT y_35 OR NOT y_40
-NOT y_36 OR NOT y_40
-NOT y_37 OR NOT y_40
-NOT y_38 OR NOT y_39
-NOT y_38 OR NOT y_40
-NOT y_39 OR NOT y_40
-y_23 OR NOT y_4 OR y_32 OR y_13 OR y_14 OR y_15 OR y_16 OR y_17 OR y_18 OR y_19 OR y_20 OR y_21 OR y_22 OR y_25 OR y_26
+y_0 or not y_28
+y_28 or not y_0 or y_13 or y_14 or y_15 or y_17 or y_21 or y_22 or y_24 or y_25 or y_26 or y_27
+y_0 or not y_26 or y_1 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+y_0 or not y_25 or y_1 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+y_0 or not y_24 or y_2
+y_0 or not y_17 or y_1 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+y_0 or not y_15 or y_1 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+y_0 or not y_14 or y_1 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+y_0 or not y_13 or y_1 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+y_23 or not y_7 or y_13 or y_14 or y_15 or y_16 or y_17 or y_18 or y_19 or y_20 or y_21 or y_22 or y_26 or y_25 or y_27
+y_7 or not y_20 or y_1 or y_4 or y_5 or y_6 or y_3
+y_23 or not y_6 or y_13 or y_14 or y_15 or y_16 or y_17 or y_18 or y_19 or y_20 or y_21 or y_22 or y_26 or y_25 or y_27
+y_23 or not y_5 or y_13 or y_14 or y_15 or y_16 or y_17 or y_18 or y_19 or y_20 or y_21 or y_22 or y_26 or y_25 or y_27
+y_9 or not y_12 or y_8
+y_9 or not y_11 or y_8
+y_9 or not y_10 or y_8
+y_23 or not y_3 or y_13 or y_14 or y_15 or y_16 or y_17 or y_18 or y_19 or y_20 or y_21 or y_22 or y_26 or y_25 or y_27
+y_27 or not y_2 or y_13 or y_14 or y_15 or y_16 or y_17 or y_18 or y_19 or y_21 or y_22 or y_23 or y_24 or y_25 or y_26
+y_2 or not y_23 or y_4 or y_5 or y_6 or y_3 or y_7 or y_1
+y_2 or not y_19 or y_4 or y_5 or y_6 or y_3 or y_7 or y_1
+y_2 or not y_18 or y_4 or y_5 or y_6 or y_3 or y_7 or y_1
+y_2 or not y_16 or y_4 or y_5 or y_6 or y_3 or y_7 or y_1
+y_23 or not y_1 or y_13 or y_14 or y_15 or y_16 or y_17 or y_18 or y_19 or y_20 or y_21 or y_22 or y_26 or y_25 or y_27
+y_1 or not y_22 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+y_1 or not y_21 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7
+not y_1 or not y_2
+not y_1 or not y_3
+not y_1 or not y_4
+not y_1 or not y_5
+not y_1 or not y_6
+not y_2 or not y_3
+not y_1 or not y_7
+not y_1 or not y_8
+not y_2 or not y_4
+not y_1 or not y_9
+not y_1 or not y_10
+not y_2 or not y_5
+not y_1 or not y_11
+not y_1 or not y_12
+not y_2 or not y_6
+not y_3 or not y_4
+not y_2 or not y_7
+not y_3 or not y_5
+not y_2 or not y_8
+not y_2 or not y_9
+not y_3 or not y_6
+not y_2 or not y_10
+not y_4 or not y_5
+not y_3 or not y_7
+not y_2 or not y_11
+not y_1 or not y_24
+not y_2 or not y_12
+not y_3 or not y_8
+not y_4 or not y_6
+not y_1 or not y_27
+not y_3 or not y_9
+not y_1 or not y_28
+not y_4 or not y_7
+not y_3 or not y_10
+not y_5 or not y_6
+not y_16 or not y_2
+not y_4 or not y_8
+not y_3 or not y_11
+not y_5 or not y_7
+not y_3 or not y_12
+not y_4 or not y_9
+not y_20 or not y_2
+not y_4 or not y_10
+not y_5 or not y_8
+not y_1 or not y_0
+y_0 or y_1 or y_2 or y_3 or y_4 or y_5 or y_6 or y_7 or y_8 or y_9
+not y_6 or not y_7
+not y_4 or not y_11
+not y_5 or not y_9
+not y_4 or not y_12
+not y_6 or not y_8
+not y_5 or not y_10
+not y_6 or not y_9
+not y_5 or not y_11
+not y_2 or not y_28
+not y_7 or not y_8
+not y_5 or not y_12
+not y_6 or not y_10
+not y_7 or not y_9
+not y_6 or not y_11
+not y_7 or not y_10
+not y_3 or not y_24
+not y_6 or not y_12
+not y_8 or not y_9
+not y_7 or not y_11
+not y_3 or not y_27
+not y_2 or not y_0
+y_0 or y_2 or not y_27
+not y_3 or not y_28
+not y_7 or not y_12
+not y_4 or not y_24
+not y_8 or not y_13
+not y_4 or not y_27
+not y_10 or not y_11
+not y_4 or not y_28
+not y_14 or not y_8
+not y_9 or not y_13
+not y_5 or not y_24
+not y_8 or not y_15
+not y_10 or not y_12
+not y_3 or not y_0
+not y_14 or not y_9
+not y_8 or not y_16
+not y_10 or not y_13
+not y_11 or not y_12
+not y_5 or not y_27
+not y_9 or not y_15
+not y_17 or not y_8
+not y_5 or not y_28
+not y_10 or not y_14
+not y_11 or not y_13
+not y_6 or not y_24
+not y_8 or not y_18
+not y_9 or not y_16
+not y_10 or not y_15
+not y_8 or not y_19
+not y_17 or not y_9
+not y_11 or not y_14
+not y_12 or not y_13
+not y_8 or not y_20
+not y_10 or not y_16
+not y_6 or not y_27
+not y_9 or not y_18
+not y_4 or not y_0
+not y_11 or not y_15
+not y_6 or not y_28
+not y_7 or not y_24
+not y_8 or not y_21
+not y_12 or not y_14
+not y_10 or not y_17
+not y_9 or not y_19
+not y_22 or not y_8
+not y_11 or not y_16
+not y_9 or not y_20
+not y_10 or not y_18
+not y_12 or not y_15
+not y_8 or not y_23
+not y_11 or not y_17
+not y_7 or not y_27
+not y_9 or not y_21
+not y_10 or not y_19
+not y_8 or not y_24
+not y_12 or not y_16
+not y_13 or not y_15
+not y_7 or not y_28
+not y_22 or not y_9
+not y_11 or not y_18
+not y_8 or not y_25
+not y_10 or not y_20
+not y_12 or not y_17
+not y_5 or not y_0
+not y_9 or not y_23
+not y_8 or not y_26
+not y_11 or not y_19
+not y_10 or not y_21
+not y_14 or not y_15
+not y_8 or not y_27
+not y_9 or not y_24
+not y_12 or not y_18
+not y_10 or not y_22
+not y_11 or not y_20
+not y_8 or not y_28
+not y_9 or not y_25
+not y_12 or not y_19
+not y_10 or not y_23
+not y_11 or not y_21
+not y_9 or not y_26
+not y_10 or not y_24
+not y_12 or not y_20
+not y_11 or not y_22
+not y_9 or not y_27
+not y_6 or not y_0
+not y_10 or not y_25
+not y_9 or not y_28
+not y_12 or not y_21
+not y_11 or not y_23
+not y_15 or not y_17
+not y_10 or not y_26
+not y_11 or not y_24
+not y_12 or not y_22
+not y_10 or not y_27
+not y_11 or not y_25
+not y_12 or not y_23
+not y_11 or not y_26
+not y_7 or not y_0
+not y_12 or not y_24
+not y_11 or not y_27
+not y_12 or not y_25
+not y_12 or not y_26
+not y_12 or not y_27
+not y_8 or not y_0
+not y_18 or not y_19
+not y_9 or not y_0
+not y_16 or not y_24
+not y_10 or not y_0
+not y_27 or not y_16
+not y_24 or not y_18
+not y_16 or not y_28
+not y_11 or not y_0
+not y_24 or not y_19
+not y_12 or not y_0
+not y_24 or not y_23
+not y_24 or not y_25
+not y_24 or not y_26
+not y_24 or not y_27
+not y_16 or not y_0
+not y_0 or not y_18
+not y_0 or not y_19
+not y_20 or not y_0
+y_29 or y_30 or y_31 or y_32 or y_33 or y_34 or y_35 or y_36 or y_37 or y_38 or y_39 or y_40 or y_8 or y_9
+not y_30 or not y_31
+not y_0 or not y_23
+not y_29 or not y_33
+not y_30 or not y_33
+not y_32 or not y_31
+not y_30 or not y_34
+not y_33 or not y_31
+not y_30 or not y_36
+not y_33 or not y_34
+not y_38 or not y_30
+not y_29 or not y_40
+not y_39 or not y_30
+not y_30 or not y_40
+not y_39 or not y_31
+not y_40 or not y_31
+not y_38 or not y_33
+not y_35 or not y_36
+not y_32 or not y_40
+not y_33 or not y_39
+not y_33 or not y_40
+not y_34 or not y_40
+not y_35 or not y_40
+not y_36 or not y_40
+not y_37 or not y_40
+not y_38 or not y_39
+not y_38 or not y_40
+not y_39 or not y_40
+y_23 or not y_4 or y_32 or y_13 or y_14 or y_15 or y_16 or y_17 or y_18 or y_19 or y_20 or y_21 or y_22 or y_25 or y_26
